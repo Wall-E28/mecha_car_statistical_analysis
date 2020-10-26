@@ -71,3 +71,20 @@ Here is a breakdown of each of the four tests:
 ### Lot 3 Test
 
 ![3_pop_test](https://github.com/Wall-E28/mecha_car_statistical_analysis/blob/main/visualizations/3_pop_test.png)
+
+## Study Design: MechaCar vs Competition
+
+In this section, I am comparing how the MechaCar performs with the competition. I am not preforming any tests in R, I am talking about how I would go about completing this analysis. In order to do this I want to answer four different questions which are:
+
+1. What metric or metrics are you going to test?
+2. What is the null hypothesis or alternative hypothesis?
+3. What statistical test would you use to test the hypothesis? And why?
+4. What data is needed to run the statistical test?
+
+The answer to these questions are:
+
+1. The metrics I want to test are city and highway fuel efficiencies.
+2. Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+3. I would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also I would use the ggplot2 library to show the potential spread between different cars using a boxplot.
+4. I would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, I would have a top of 500 data points collected for each fuel efficiency type.
+
