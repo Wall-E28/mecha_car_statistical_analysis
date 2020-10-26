@@ -17,4 +17,5 @@ pop2 <- subset(sus_coils, Manufacturing_Lot=='Lot2') # Create subset for lot 2 c
 t.test(x=pop2$PSI, mu=1500) # t test on lot 2 cars' PSI with a mean of 1500
 pop3 <- subset(sus_coils, Manufacturing_Lot=='Lot3') # Create subset for lot 3 cars
 t.test(x=pop3$PSI, mu=1500) # t test on lot 3 cars' PSI with a mean of 1500
-       
+# Comparing MechaCar to the Competition 
+
